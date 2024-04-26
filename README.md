@@ -2,6 +2,7 @@
 A pipline to charactarize PRC in D.magna and other related species
 ### Installation
 To run this script you need Python 3 and the following dependencies: pandas, tqdm, glob, subprocess, and getopt. 
+This script runs ORFfinder and blastx via os.system, so make sure to have those installed
 ### Running the script
 1. First you should create an empty directory for the output files
 2. Then Run `PRC_pipeline.py` as follow:
