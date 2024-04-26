@@ -6,7 +6,7 @@ To run this script you need Python 3 and the following dependencies: pandas, tqd
 1. First you should create an empty directory for the output files
 2. Then Run `PRC_pipeline.py` as follow:
 ```
-PRC_pipeline.py -in <PRC_DNA_SEQUENCE> -db <DATABASE> -out <OUTPUT_DIR> -nt <NUMBER_OF_THREADS>
+PRC_pipeline.py -i <PRC_DNA_SEQUENCE> -d <DATABASE> -o <OUTPUT_DIR> -n <NUMBER_OF_THREADS>
 <PRC_DNA_SEQUENCE>    The PRC sequence in fasta format
 <DATABASE>            Protein database to use for the blastx search
 <OUTPUT_DIR>          Directory where the final files will be saved
